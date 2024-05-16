@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TP-3</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+      <header id="header">
+            <h1>Formulario</h1>
+     </header>
+  
+     <main class="main">
+         <a href="/index" target="_top">Inicio</a><br>
+          <form>
+        
+               <label for="dni" >DNI:</label>
+               <input id="dni" type="number" required placeholder="ingrese el dni en numeros" name="dni"></input><br>
+               <label for="nombres">Nombre:</label>
+               <input id="nombres" type="text" required placeholder="ingrese sus nombres" name="nombres"></input><br>
+               <label for="apellidos">Apellidos:</label>
+               <input id="apellidos" type="text" required placeholder="ingrese sus apellidos" name="apellidos"></input><br>
+               <label for="fechaNac">Fecha de Nacimiento:</label>
+               <input id="fechaNac" type="date" required placeholder="ingrese su fecha" name="fechaNac"></input><br>
+               <div>
+               <label for="generoM">Masculino:</label>
+               <input id="generoM" type="radio" value="Masculino" name="genero" ></input><br>
+               <label for="generoF">Femenino:</label>
+               <input id="generoF" type="radio" value="Femenino" name="genero"></input><br>
+               <label for="generoX">X:</label>
+               <input id="generoX" type="radio" value="X" name="genero"></input><br>
+               <label for="correo">Correo:</label>
+               <input id="correo" type="email" required placeholder="ingrese su correo" name="correo"></input><br>
+               <label for="domicilio">Domicilio:</label>
+               <input id="domicilio" type="text" required placeholder="ingrese su domicilio" name="domicilio"></input><br>
+               <label for="provincia">Provincia:</label>
+               <select id="provincia" name="provincia" required>
+                      <option value="Jujuy">Jujuy</option>
+                      <option value="Salta">Salta</option>
+                      <option value="Chaco">Chaco</option>
+                      <option value="Tucuman">Tucuman</option>
+               </select><br>
+               <label for="celular">Teléfono:</label>
+               <input id="celular" type="number" required placeholder="ingrese su num celular" name="celular"></input><br>
+               </div>
+               <label>Categorías de intereses:</label>
+               <div>
+                    <label for="intereses">Futbol:</label>
+                   <input id="intereses" type="checkbox" name="intereses"></input><br>
+               <label for="intereses">Turismo:</label>
+                   <input id="intereses" type="checkbox" name="intereses"></input><br>
+                    <label for="intereses">Gastronomía:</label>
+                   <input id="intereses" type="checkbox" name="intereses"></input><br>
+               </div>
+               <label for="sugerencia">Sugerencias:</label>
+               <textarea id="sugerencia"   placeholder="ingrese comentarios" name="sugerencia" rows="8" cols="40"></textarea><br>
+               <label for="password">Password:</label>
+               <input id="password" type="password" required placeholder="Ingrese una Contraseña" name="password" maxlength="10" minlength="5"></input><br>
+               <label for="TyC">Acepto los terminos y condiciones:</label>
+               <input id="TyC" type="checkbox" required name="TyC"></input><br>
+               <label for="infoR">Acepto recibir informacion relativa a la empresa:</label>
+               <input id="infoR" type="checkbox" name="infoR"></input><br>
+               <input type="button" value="cancelar"><br>
+               <input type="submit" value="guardar">
+          </form>
+          </main>
+          <footer id="footer">
+                  <h2>Redes</h2>
+                  <p>Facebook: <a href="https://www.facebook.com/unjuvirtual" target="_blank">Unju Virtual</a></p>
+                  <p>Correo: virtual@unju.edu.ar</p>
+                  <p>Telefono: 0388154708223</p>
+                  
+          </footer>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+#footer{
+	   background-color: #8ce2ee
+}
+#header{
+	   background-color: #79c8f2;
+	   text-align: center;
+	   padding: 20px;
+	   margin: 5px;
+	   flex: 3;
+}
+.nav{
+	background-color: #8ce2ee;
+}
+.a{
+	color: green;
+}
+.main{
+	background-color: #daf9fa;
+	padding:50px;
+	margin: 5px;
+	flex: 3;
+}
+.section{
+	background-color: #d0f4f0
+	
+}
+.recursos{
+	flex: 1;
+	padding: 50px;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
